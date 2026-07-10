@@ -1,71 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- SEO / Google indexing -->
-  <title>Milena Design Ltd | Garment & Knitted Textile Manufacturer UK</title>
-  <meta name="description" content="Milena Design Ltd is a UK-based garment and knitted textile manufacturer in Ashton-under-Lyne, specialising in high-quality clothing production, sampling, bespoke manufacturing and textile products.">
-  <meta name="keywords" content="garment manufacturer UK, knitted textile manufacturer, sewing workshop Manchester, clothing manufacturing UK, sampling service, bespoke manufacturing, private label production, textile production, Milena Design Ltd">
-  <meta name="author" content="Milena Design Ltd">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://milenadesign.co.uk/">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/images/favicon.png">
-  <link rel="apple-touch-icon" href="assets/images/favicon.png">
-
-  <!-- Open Graph / social media preview -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Milena Design Ltd | Garment & Knitted Textile Manufacturer UK">
-  <meta property="og:description" content="Milena Design Ltd is a UK-based garment and knitted textile manufacturer in Ashton-under-Lyne, specialising in high-quality clothing production, sampling, bespoke manufacturing and textile products.">
-  <meta property="og:url" content="https://milenadesign.co.uk/">
-  <meta property="og:site_name" content="Milena Design Ltd">
-  <meta property="og:image" content="https://milenadesign.co.uk/assets/images/milena-design-logo.png">
-
-  <!-- Twitter / X preview -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Milena Design Ltd | Garment & Knitted Textile Manufacturer UK">
-  <meta name="twitter:description" content="Milena Design Ltd is a UK-based garment and knitted textile manufacturer in Ashton-under-Lyne, specialising in high-quality clothing production, sampling, bespoke manufacturing and textile products.">
-  <meta name="twitter:image" content="https://milenadesign.co.uk/assets/images/milena-design-logo.png">
-
-  <!-- Structured data for Google -->
-  <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Milena Design Ltd",
-    "url": "https://milenadesign.co.uk/",
-    "logo": "https://milenadesign.co.uk/assets/images/milena-design-logo.png",
-    "image": "https://milenadesign.co.uk/assets/images/milena-design-logo.png",
-    "description": "Milena Design Ltd is a UK-based garment and knitted textile manufacturer in Ashton-under-Lyne, specialising in high-quality clothing production, sampling, bespoke manufacturing and textile products.",
-    "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "South St",
-        "addressLocality": "Ashton-under-Lyne",
-        "postalCode": "OL7 0HU",
-        "addressCountry": "GB"
-    },
-    "areaServed": [
-        "United Kingdom",
-        "Manchester",
-        "Ashton-under-Lyne"
-    ],
-    "foundingDate": "2015",
-    "knowsAbout": [
-        "Garment manufacturing",
-        "Knitted textile manufacturing",
-        "Sampling service",
-        "Bespoke manufacturing",
-        "Private label production",
-        "Contract sewing services",
-        "Textile production"
-    ]
-}
-  </script>
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
+  <title>Milena Design Ltd | Garment & Textile Manufacturing</title>
+  <meta name="description" content="Milena Design Ltd is a family-run garment and knitted textile manufacturing company based in  Greater Manchester, United Kingdom, established in 2015. Contact: MILENA_DESIGN@INAME.COM, 07821 116080." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
@@ -81,7 +21,246 @@ object-fit:cover!important;
 object-position:center 20%!important;
 }
 }
+
+  /* Professional nested FAQ accordion */
+  .faq-section {
+    padding: 30px 24px 42px;
+    background: #f7f4ee;
+  }
+  .faq-shell {
+    width: min(1120px, 100%);
+    margin: 0 auto;
+  }
+  .faq-master {
+    border: 1px solid rgba(53, 112, 105, 0.18);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 14px 38px rgba(24, 34, 33, 0.08);
+    overflow: hidden;
+  }
+  .faq-master-summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    padding: 26px 30px;
+    user-select: none;
+  }
+  .faq-master-summary::-webkit-details-marker,
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-master-copy { display: grid; gap: 4px; }
+  .faq-kicker {
+    color: #a87935;
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .faq-title {
+    color: #1c2524;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.65rem, 2.4vw, 2.25rem);
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  .faq-intro {
+    color: #626866;
+    font-size: 0.96rem;
+    line-height: 1.55;
+  }
+  .faq-master-toggle {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: #2f6f68;
+    font-size: 0.84rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .faq-master-chevron,
+  .faq-item-icon {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: rgba(47, 111, 104, 0.1);
+    transition: transform 0.22s ease, background-color 0.22s ease;
+  }
+  .faq-master-chevron::before,
+  .faq-master-chevron::after,
+  .faq-item-icon::before,
+  .faq-item-icon::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 2px;
+    background: #2f6f68;
+    border-radius: 2px;
+    transform: translate(-50%, -50%);
+  }
+  .faq-master-chevron::after,
+  .faq-item-icon::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+    transition: opacity 0.18s ease;
+  }
+  .faq-master[open] .faq-master-chevron {
+    transform: rotate(180deg);
+    background: rgba(47, 111, 104, 0.16);
+  }
+  .faq-master[open] .faq-master-chevron::after,
+  .faq-item[open] .faq-item-icon::after { opacity: 0; }
+  .faq-list {
+    border-top: 1px solid rgba(53, 112, 105, 0.14);
+    padding: 12px 18px 20px;
+    background: linear-gradient(180deg, rgba(247,250,249,0.72), rgba(255,255,255,0.95));
+  }
+  .faq-item { border-bottom: 1px solid rgba(53, 112, 105, 0.12); }
+  .faq-item:last-child { border-bottom: 0; }
+  .faq-item summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 19px 12px;
+    color: #243331;
+    font-size: 1rem;
+    font-weight: 750;
+    line-height: 1.4;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+  }
+  .faq-item summary:hover {
+    color: #2f6f68;
+    padding-left: 16px;
+  }
+  .faq-item-icon {
+    width: 28px;
+    height: 28px;
+    flex: 0 0 28px;
+  }
+  .faq-item-icon::before,
+  .faq-item-icon::after { width: 10px; }
+  .faq-answer { padding: 0 56px 20px 12px; }
+  .faq-answer p {
+    margin: 0;
+    color: #5d6664;
+    font-size: 0.95rem;
+    line-height: 1.72;
+  }
+  @media (max-width: 700px) {
+    .faq-section { padding: 22px 14px 30px; }
+    .faq-master-summary {
+      align-items: flex-start;
+      padding: 22px 20px;
+    }
+    .faq-master-toggle-text { display: none; }
+    .faq-intro { font-size: 0.9rem; }
+    .faq-list { padding: 8px 12px 14px; }
+    .faq-item summary {
+      padding: 17px 8px;
+      font-size: 0.95rem;
+    }
+    .faq-answer { padding: 0 42px 18px 8px; }
+  }
+
 </style>
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Do you offer private label clothing manufacturing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Milena Design Ltd provides private label clothing manufacturing for fashion brands, retailers, wholesalers and business customers across the UK. We manufacture garments to customer designs, specifications and branding requirements."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can you manufacture baby clothing and nursery textile products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We specialise in baby clothing manufacturing and can also produce nursery textile products, knitted babywear, blankets, soft furnishings and related textile items for business customers."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do you manufacture children's clothing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We manufacture children's clothing, knitted garments, dresses, jumpers, accessories and other textile products according to supplied designs and specifications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do you provide sampling and prototype development?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our sampling service supports fit testing, design approval, construction checks and production planning before full manufacturing begins."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do you offer Cut, Make and Trim (CMT) services?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We provide Cut, Make and Trim (CMT) manufacturing services for brands and businesses that require reliable garment production in the UK."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can you manufacture bespoke textile products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We offer bespoke textile manufacturing based on customer designs, technical specifications, fabrics and production requirements."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do you work with start-up clothing brands?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We support established businesses and start-up clothing brands with sampling, small production runs, private label manufacturing and ongoing garment production."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where is Milena Design Ltd located?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Milena Design Ltd is based in Ashton-under-Lyne, Tameside, Greater Manchester. We provide UK garment manufacturing, textile production and contract sewing services for business customers."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do you manufacture knitted textile products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We manufacture knitted textile products, knitwear, babywear, children's garments, blankets and selected soft furnishing products."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Who do you work with?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We work exclusively with business customers, including clothing brands, manufacturers, wholesalers, retailers and distributors. We do not provide retail or individual made-to-measure services."
+            }
+        }
+    ]
+}
+  </script>
+
 </head>
 <body>
 <header class="site-header">
@@ -278,6 +457,79 @@ object-position:center 20%!important;
     </form>
   </section>
 </main>
+
+
+  <!-- SEO FAQ section -->
+  <section class="faq-section" id="faq">
+    <div class="faq-shell">
+      <details class="faq-master">
+        <summary class="faq-master-summary">
+          <span class="faq-master-copy">
+            <span class="faq-kicker">Useful information</span>
+            <span class="faq-title">Frequently Asked Questions</span>
+            <span class="faq-intro">Manufacturing, sampling and production information for brands and business customers.</span>
+          </span>
+          <span class="faq-master-toggle" aria-hidden="true">
+            <span class="faq-master-toggle-text">View FAQ</span>
+            <span class="faq-master-chevron"></span>
+          </span>
+        </summary>
+        <div class="faq-list">
+
+          <details class="faq-item">
+            <summary>Do you offer private label clothing manufacturing?<span class="faq-item-icon" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Yes. Milena Design Ltd provides private label clothing manufacturing for fashion brands, retailers, wholesalers and business customers across the UK. We manufacture garments to customer designs, specifications and branding requirements.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can you manufacture baby clothing and nursery textile products?<span class="faq-item-icon" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Yes. We specialise in baby clothing manufacturing and can also produce nursery textile products, knitted babywear, blankets, soft furnishings and related textile items for business customers.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Do you manufacture children's clothing?<span class="faq-item-icon" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Yes. We manufacture children's clothing, knitted garments, dresses, jumpers, accessories and other textile products according to supplied designs and specifications.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Do you provide sampling and prototype development?<span class="faq-item-icon" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Yes. Our sampling service supports fit testing, design approval, construction checks and production planning before full manufacturing begins.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Do you offer Cut, Make and Trim (CMT) services?<span class="faq-item-icon" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Yes. We provide Cut, Make and Trim (CMT) manufacturing services for brands and businesses that require reliable garment production in the UK.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can you manufacture bespoke textile products?<span class="faq-item-icon" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Yes. We offer bespoke textile manufacturing based on customer designs, technical specifications, fabrics and production requirements.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Do you work with start-up clothing brands?<span class="faq-item-icon" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Yes. We support established businesses and start-up clothing brands with sampling, small production runs, private label manufacturing and ongoing garment production.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Where is Milena Design Ltd located?<span class="faq-item-icon" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Milena Design Ltd is based in Ashton-under-Lyne, Tameside, Greater Manchester. We provide UK garment manufacturing, textile production and contract sewing services for business customers.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Do you manufacture knitted textile products?<span class="faq-item-icon" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>Yes. We manufacture knitted textile products, knitwear, babywear, children's garments, blankets and selected soft furnishing products.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Who do you work with?<span class="faq-item-icon" aria-hidden="true"></span></summary>
+            <div class="faq-answer"><p>We work exclusively with business customers, including clothing brands, manufacturers, wholesalers, retailers and distributors. We do not provide retail or individual made-to-measure services.</p></div>
+          </details>
+
+        </div>
+      </details>
+    </div>
+  </section>
 
 <footer class="site-footer">
   <p class="copyright">© 2026 Milena Design Ltd.</p>
